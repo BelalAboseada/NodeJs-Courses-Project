@@ -48,7 +48,7 @@ The Course Backend App is a RESTful API built using Node.js, Express.js, and Mon
    
    Create a `.env` file in the root directory and add the following environment variables:
     
-    PORT=3000
+    PORT=3001
 
     MONGODB_URI=<your_mongodb_connection_string>
     
