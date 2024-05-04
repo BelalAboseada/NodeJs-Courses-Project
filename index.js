@@ -35,7 +35,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(process.env.PORT, process.env.HOST_NAME, () => {
+app.listen(process.env.PORT, () => {
   console.log(
     `Server is running at http://${process.env.HOST_NAME}:${process.env.PORT}`
   );
